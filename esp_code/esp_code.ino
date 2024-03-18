@@ -27,9 +27,6 @@ void sendSensor()
   float h = dht.readHumidity();
   float t = dht.readTemperature(); // or dht.readTemperature(true) for Fahrenheit
 
-  
-  // You can send any value at any time.
-  // Please don't send more that 10 values per second.
     Blynk.virtualWrite(V2, t);
     Blynk.virtualWrite(V3, h);
     Serial.print("Temperature : ");
