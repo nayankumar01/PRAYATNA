@@ -1,2 +1,2 @@
 # PRAYATNA
-prayatna hackathon indor
+prayatna hackathon indore
